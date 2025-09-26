@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Noto Sans Variable Italic";
+  src: url("./assets/fonts/NotoSans-Italic-VariableFont_wdth\,wght.ttf")
+    format("truetype");
+  font-style: italic;
+  font-weight: 100 900;
+  font-stretch: 75% 125%;
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-Noto sans :Noto sans
+}
